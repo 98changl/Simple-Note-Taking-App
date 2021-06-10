@@ -1,0 +1,32 @@
+ol {
+    background: black;
+    -moz-column-count: 6;
+    -webkit-column-count: 6;
+    column-count: 6;
+    padding: 5px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+li {
+    background: white;
+    height: 150px;
+    width: 225px;
+    border: 5px solid black;
+    vertical-align: top;
+    list-style-type: none;
+}
+
+#listObj .ui-selected { 
+    background: grey; 
+    color: white; 
+}
+
+select {
+    background: black;
+    column-count: 6;
+}
+
+#view {
+    display: inline;
+}
